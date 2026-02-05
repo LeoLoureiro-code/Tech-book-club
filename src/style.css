@@ -16,5 +16,39 @@
 
     --gradient3: #FFE2D1;
     --gradient4: #FFF5EF;
+
+    --large-desktop: 1440px;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Mobile*/
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+
+}
+
+/*Tablet*/
+
+@media (min-width:768px) {
+    .container{
+        grid-template-columns: repeat(8, 1fr);
+        gap: 1.5rem;
+    }
+}
+
+/*Desktop*/
+
+@media (min-width: 1024px) {
+    .container{
+        grid-template-columns: repeat(12, 1fr);
+        gap: 2rem;
+    }
+}
