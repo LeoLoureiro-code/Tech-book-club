@@ -206,7 +206,7 @@ main{
 .features-paragraph{
     font-family: var(--font-family-1);
     font-size: 20px;
-    
+    color: var(--neutral700);
 }
 
 .features-img-div{
@@ -217,6 +217,39 @@ main{
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
+}
+
+/*Info Section*/
+
+.info-title{
+    font-family: var(--font-family-2);
+    font-size: 32px;
+    line-height: 2.8rem;
+    margin-bottom: 2rem;
+}
+
+.club-span:after{
+    
+}
+
+.info-paragraph{
+    font-family: var(--font-family-1);
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+    color: var(--neutral700);
+}
+
+.info-img{
+    height: 318.5px;
+    width: 343px;
+    background-image: url(/src/assets/images/image-not-average-mobile.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 2rem;
 }
 
 /*Membership section*/
