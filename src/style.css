@@ -154,6 +154,9 @@ header{
 main{
     grid-column: 1/-1;
     grid-row: 2;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
 }
 
 .hero{
@@ -165,13 +168,15 @@ main{
     margin-bottom: 4rem;
     margin-top: 3rem;
     border-radius: 10px;
+    grid-column: 1/-1;
+    grid-row: 1;
 }
 
 /*Features section*/
 
 .features-section{
     grid-column: 1/-1;
-    grid-row: 3;
+    grid-row: 2;
     margin-bottom: 3rem;
 }
 
@@ -223,7 +228,7 @@ main{
 .info-section{
     margin-bottom: 5rem;
     grid-column: 1/-1;
-    grid-row: 4;
+    grid-row: 3;
 }
 
 .info-title{
@@ -259,7 +264,8 @@ main{
 
 .journey-section{
     grid-column: 1/-1;
-    grid-row: 5;
+    grid-row: 4;
+    margin-bottom: 5rem;
 }
 
 .journey-title{
@@ -299,23 +305,65 @@ main{
 
 .membership-section{
     grid-column: 1/ -1;
-    grid-row: 6;
+    grid-row: 5;
 }
 
+.membership-title{
+    font-family: var(--font-family-2);
+    font-size: 30px;
+}
+
+.membership-option-list, .option-features-list{
+    list-style: none;
+}
+
+.membership-option-list{
+    margin-top: 4rem;
+}
+
+.membership-option-item{
+    border: 1px solid var(--neutral200);
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+
+.option-title{
+    font-family: var(--font-family-2);
+    font-size: 24px;
+    margin-bottom: 2rem;
+}
+
+.option-payment{
+    font-family: var(--font-family-2);
+    font-size: 36px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.payment-monthly{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--neutral700);
+}
+
+hr{
+    margin: 2rem 0 2rem 0;
+}
 
 
 /*Testimonal section*/
 
 .testimonials-section{
     grid-column: 1/ -1;
-    grid-row: 7;
+    grid-row: 6;
 }
 
 /*Footer*/
 
 footer{
     grid-column: 1/ -1;
-    grid-row: 8;
+    grid-row: 3;
 }
 
 /*Tablet*/
