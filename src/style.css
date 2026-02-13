@@ -325,6 +325,7 @@ main{
     border: 1px solid var(--neutral200);
     border-radius: 10px;
     padding: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .option-title{
@@ -351,6 +352,46 @@ hr{
     margin: 2rem 0 2rem 0;
 }
 
+.option-features-list{
+    margin: 2rem 0 2rem 0;
+}
+
+.option-feature-item{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.option-feature-check{
+    height: 24px;
+    width: 24px;
+    background-image: url(/src/assets/images/icon-check.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    outline: none;
+}
+
+.option-feature-paragraph{
+    font-family: var(--font-family-1);
+    font-size: 20px;
+    color: var(--neutral700);
+    margin-left: 1rem;
+}
+
+.suscribe-btn{
+    width: 292px;
+    height: 61px;
+    border: 2px solid var(--neutral900);
+    background-color: var(--light-salmon50);
+    font-family: var(--font-family-2);
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
 
 /*Testimonal section*/
 
@@ -359,11 +400,25 @@ hr{
     grid-row: 6;
 }
 
+.testimonial-paragraph{
+    font-family: var(--font-family-2);
+    font-size: 24px;
+    font-weight: 700;
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+.testimonial-author{
+    font-family: var(--font-family-1);
+    font-size: 18px;
+    color: var(--neutral700);
+}
+
 /*Footer*/
 
 footer{
     grid-column: 1/ -1;
     grid-row: 3;
+    background-color: var(--neutral900);
 }
 
 /*Tablet*/
