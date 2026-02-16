@@ -66,6 +66,29 @@ body{
     background-color: var(--neutral100);
 }
 
+header, main {
+    padding: 2rem 1rem 1rem 1rem;
+}
+
+section, .hero{
+    margin-bottom: 5rem;
+}
+
+.btn{
+    width: 343px;
+    height: 64px;
+    background-color: transparent;
+    outline: none;
+    border-radius: 10px;
+    font-family: var(--font-family-2);
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 2rem 0 2rem 0;
+    text-transform: uppercase;
+}
 
 /*Mobile*/
 
@@ -74,7 +97,6 @@ body{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
-    padding: 2rem 1rem 1rem 1rem;
 }
 
 /*Header*/
@@ -101,21 +123,8 @@ header{
 }
 
 .review-membership-btn{
-    width: 343px;
-    height: 64px;
     border: 2px solid var(--neutral900);
     color: var(--neutral900);
-    background-color: transparent;
-    outline: none;
-    border-radius: 10px;
-    font-family: var(--font-family-2);
-    font-size: 16px;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 2rem 0 2rem 0;
-    text-transform: uppercase;
 }
 
 .club-stats{
@@ -165,8 +174,6 @@ main{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-bottom: 4rem;
-    margin-top: 3rem;
     border-radius: 10px;
     grid-column: 1/-1;
     grid-row: 1;
@@ -177,7 +184,6 @@ main{
 .features-section{
     grid-column: 1/-1;
     grid-row: 2;
-    margin-bottom: 3rem;
 }
 
 .features-title{
@@ -226,7 +232,6 @@ main{
 /*Info Section*/
 
 .info-section{
-    margin-bottom: 5rem;
     grid-column: 1/-1;
     grid-row: 3;
 }
@@ -265,14 +270,12 @@ main{
 .journey-section{
     grid-column: 1/-1;
     grid-row: 4;
-    margin-bottom: 5rem;
 }
 
 .journey-title{
     font-family: var(--font-family-2);
     font-size: 32px;
     line-height: 2.7rem;
-    margin-top: 4rem;
 }
 
 .journey-steps-list{
@@ -419,6 +422,38 @@ footer{
     grid-column: 1/ -1;
     grid-row: 3;
     background-color: var(--neutral900);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 3rem 1rem 1rem 1rem;
+}
+
+.call-to-action-title{
+    font-family: var(--font-family-2);
+    font-size: 30px;
+    color: var(--neutral0);
+    text-align: center;
+}
+
+.footer-review-membership-btn{
+    color: var(--neutral0);
+    border: 2px solid var(--neutral0);
+}
+
+.copyright-paragraph{
+    font-family: var(--font-family-2);
+    font-size: 14px;
+    text-align: center;
+    color: var(--neutral0);
+}
+
+.social-media-list{
+    width: 40%;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 1.5rem;
 }
 
 /*Tablet*/
