@@ -589,6 +589,22 @@ footer > hr{
     width: 100%;
 }
 
+.social{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.social-media-list {
+  width: 10%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0;
+}
+
 
 }
 
