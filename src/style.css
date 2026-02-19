@@ -74,7 +74,7 @@ main {
   padding: 2rem 1rem 1rem 1rem;
 }
 
-section{
+section {
   margin-bottom: 5rem;
 }
 
@@ -101,6 +101,8 @@ section{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 /*Header*/
@@ -470,9 +472,9 @@ footer {
   }
 
   .btn {
-  width: 380px;
-  height: 64px;
-}
+    width: 380px;
+    height: 64px;
+  }
 
   /*Header*/
 
@@ -484,7 +486,7 @@ footer {
     justify-content: start;
   }
 
-    .hero {
+  .hero {
     height: 704px;
     background-image: url(/src/assets/images/image-hero-tablet.webp);
     background-position: center;
@@ -511,101 +513,99 @@ footer {
     font-size: 52px;
     line-height: 4.5rem;
     margin-bottom: 2rem;
-}
+  }
 
-.info-paragraph {
-  font-size: 18px;
-  letter-spacing: .5px;
-  line-height: 1.6rem;
-  margin-bottom: 2rem;
-}
+  .info-paragraph {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 1.6rem;
+    margin-bottom: 2rem;
+  }
 
-.info-img-div {
-  height: 653.7px;
-  background-image: url(/src/assets/images/image-not-average-tablet.webp);
-}
+  .info-img-div {
+    height: 653.7px;
+    background-image: url(/src/assets/images/image-not-average-tablet.webp);
+  }
 
-/*Journey section*/
+  /*Journey section*/
 
-.journey-title {
-  font-size: 52px;
-  line-height: 4.7rem;
-  margin-bottom: 4rem;
-}
+  .journey-title {
+    font-size: 52px;
+    line-height: 4.7rem;
+    margin-bottom: 4rem;
+  }
 
-.journey-steps-item {
-  margin: 4rem 0 4rem 0;
-}
+  .journey-steps-item {
+    margin: 4rem 0 4rem 0;
+  }
 
-.journey-steps-paragraph {
-  font-size: 18px;
-  font-weight: 700;
-}
+  .journey-steps-paragraph {
+    font-size: 18px;
+    font-weight: 700;
+  }
 
-/*Membership section*/
-.membership-title {
-  font-size: 50px;
-}
+  /*Membership section*/
+  .membership-title {
+    font-size: 50px;
+  }
 
-.membership-option-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  margin-top: 4rem;
-}
+  .membership-option-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 4rem;
+  }
 
-.membership-option-item {
-  margin: 0 0.5rem 1.5rem 0.5rem;
-  padding: 1rem;
-}
+  .membership-option-item {
+    margin: 0 0.5rem 1.5rem 0.5rem;
+    padding: 1rem;
+  }
 
-/*Testimonal section*/
+  /*Testimonal section*/
 
-.testimonial-paragraph {
-  font-size: 34px;
-line-height: 2.8rem;
-}
+  .testimonial-paragraph {
+    font-size: 34px;
+    line-height: 2.8rem;
+  }
 
-.testimonial-author {
-  font-size: 20px;
+  .testimonial-author {
+    font-size: 20px;
+  }
 
-}
+  /*Footer*/
 
-/*Footer*/
-
-footer{
+  footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.call-to-action-title {
-  font-size: 40px;
-  line-height: 3.5rem;
-}
+  .call-to-action-title {
+    font-size: 40px;
+    line-height: 3.5rem;
+  }
 
-footer > hr{
+  footer > hr {
     width: 100%;
-}
+  }
 
-.social{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
+  .social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
 
-.social-media-list {
-  width: 10%;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  margin: 0;
-}
-
-
+  .social-media-list {
+    width: 10%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+  }
 }
 
 /*Desktop*/
@@ -616,25 +616,24 @@ footer > hr{
     gap: 2rem;
   }
 
-  header{
+  header {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 2rem;
     grid-column: 1/-1;
     grid-row: 1;
-
   }
 
-  .header-div{
-     grid-column: 1/7;
-     grid-row: 2;
-     padding: 0 2rem 0 2rem;
-     display: flex;
+  .header-div {
+    grid-column: 1/7;
+    grid-row: 2;
+    padding: 0 2rem 0 2rem;
+    display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .hero{
+  .hero {
     grid-column: 7/-1;
     grid-row: 2;
     background-image: url(/src/assets/images/image-hero-desktop.webp);
@@ -643,13 +642,13 @@ footer > hr{
 
   /*features-section*/
 
-  .features-section{
+  .features-section {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 2rem;
   }
 
-  .features-div{
+  .features-div {
     grid-column: 7/-1;
     grid-row: 1;
     padding: 0 2rem 0 2rem;
@@ -658,20 +657,20 @@ footer > hr{
     justify-content: center;
   }
 
-  .features-img-div{
+  .features-img-div {
     grid-column: 1/7;
     grid-row: 1;
     background-image: url(/src/assets/images/image-read-together-desktop.webp);
   }
 
   /*Info section*/
-  .info-section{
+  .info-section {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 2rem;
   }
 
-  .info-div{
+  .info-div {
     grid-column: 1/7;
     grid-row: 1;
     padding: 0 2rem 0 2rem;
@@ -679,14 +678,54 @@ footer > hr{
     flex-direction: column;
     justify-content: center;
   }
-  
-  .info-title{
+
+  .info-title {
     font-size: 48px;
   }
 
-  .info-img-div{
+  .info-img-div {
     grid-column: 7/-1;
     grid-row: 1;
     padding: 0 2rem 0 2rem;
+  }
+
+  /*Journey section*/
+
+  .journey-title {
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .journey-steps-list{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+  }
+
+  .journey-steps-item {
+    width: 260px;
+    margin: 4rem 0 4rem 0;
+  }
+
+  /*Membership section*/
+  .membership-title {
+    text-align: center;
+  }
+
+  /*Testimonial section*/
+  .stars-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .testimonial-paragraph, .testimonial-author{
+    text-align: center;
+  }
+
+  /*Footer*/
+  .call-to-action-title{
+    width: 600px;
   }
 }
